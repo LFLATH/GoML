@@ -21,4 +21,6 @@ func main() {
 		panic(err)
 	}
 	matrix.Display(c)
+	d := matrix.Transpose(c)
+	matrix.Display(d)
 }
