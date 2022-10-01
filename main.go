@@ -23,6 +23,4 @@ func main() {
 	matrix.Display(c)
 	d := matrix.Transpose(c)
 	matrix.Display(d)
-
-	e := matrix.Sum(d)
 }
